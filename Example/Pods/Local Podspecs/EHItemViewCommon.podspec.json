@@ -1,9 +1,8 @@
 {
   "name": "EHItemViewCommon",
-  "version": "0.1.0",
-  "summary": "A short description of EHItemViewCommon.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EHItemViewCommon",
+  "version": "1.0.0",
+  "summary": "Common Headers for EHItemsView, EHPageItemsView, EHFlexibleItemsView, EHHorizontalFixedWidthItemsView, EHHorizontalFlexibleWidthItemsView.",
+  "homepage": "https://github.com/waterflowseast/EHItemViewCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,11 @@
     "Eric Huang": "WaterFlowsEast@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EHItemViewCommon.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/waterflowseast/EHItemViewCommon.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "EHItemViewCommon/Classes/**/*"
 }
