@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EHItemViewCommon_Tests' do
+  pod 'EHItemViewCommon', :path => '../'
+  
+  
+end
