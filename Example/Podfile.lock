@@ -1,0 +1,16 @@
+PODS:
+  - EHItemViewCommon (0.1.0)
+
+DEPENDENCIES:
+  - EHItemViewCommon (from `../`)
+
+EXTERNAL SOURCES:
+  EHItemViewCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EHItemViewCommon: f047ac6327a6dbd641171b5d037c19cbf0b8cd2b
+
+PODFILE CHECKSUM: b299756d35cc26181998d27de2bd7f136147c6ae
+
+COCOAPODS: 1.0.0

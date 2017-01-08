@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070CFE271E221D60002790E4 /* EHItemViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 070CFE221E221D60002790E4 /* EHItemViewDelegate.h */; };
+		070CFE281E221D60002790E4 /* EHItemViewSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 070CFE231E221D60002790E4 /* EHItemViewSelectionDelegate.h */; };
+		070CFE291E221D60002790E4 /* EHTypeDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 070CFE241E221D60002790E4 /* EHTypeDefs.h */; };
+		070CFE2A1E221D60002790E4 /* UIView+EHItemViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 070CFE251E221D60002790E4 /* UIView+EHItemViewDelegate.h */; };
+		070CFE2B1E221D60002790E4 /* UIView+EHItemViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CFE261E221D60002790E4 /* UIView+EHItemViewDelegate.m */; };
+		09FDD9BB3E5593303AE9FE0D0A3710A3 /* Pods-EHItemViewCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1736507E042A12E66838CD60BD9A740 /* Pods-EHItemViewCommon_Tests-dummy.m */; };
+		30BC4F461B347658DBA17723DECA64A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		805475207ABFFDAEFD72D7A76F4AFAA0 /* EHItemViewCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D6C97E09635EF8F47FD9F64F1F272B /* EHItemViewCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC573672F84C274B839A182CAF8C1130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DBD7A1234AF298850896B4A5070D0EB4 /* EHItemViewCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE0DA73A928C4BB724CC1BA2D3CF1F /* EHItemViewCommon-dummy.m */; };
+		FE399D5DE738B28FE801B79F95247B80 /* Pods-EHItemViewCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 870E0C2CB5C37796065CB9E7E001AFCF /* Pods-EHItemViewCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAB54E7B4D394FEF900347DD77E8355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8A77B2E4EAD24F1F768BC38FBD4674;
+			remoteInfo = EHItemViewCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0343FE5E641DC2130CBE520222DFC673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070CFE221E221D60002790E4 /* EHItemViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHItemViewDelegate.h; sourceTree = "<group>"; };
+		070CFE231E221D60002790E4 /* EHItemViewSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHItemViewSelectionDelegate.h; sourceTree = "<group>"; };
+		070CFE241E221D60002790E4 /* EHTypeDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTypeDefs.h; sourceTree = "<group>"; };
+		070CFE251E221D60002790E4 /* UIView+EHItemViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EHItemViewDelegate.h"; sourceTree = "<group>"; };
+		070CFE261E221D60002790E4 /* UIView+EHItemViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EHItemViewDelegate.m"; sourceTree = "<group>"; };
+		112CDB4CDDC64E75A418BC2A93F47ED1 /* Pods-EHItemViewCommon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHItemViewCommon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1DAD3CA9518EC6FFC3A912D9DD760032 /* Pods-EHItemViewCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHItemViewCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26D6C97E09635EF8F47FD9F64F1F272B /* EHItemViewCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EHItemViewCommon-umbrella.h"; sourceTree = "<group>"; };
+		2C24671404A673E661654B25591FE9D1 /* EHItemViewCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EHItemViewCommon-prefix.pch"; sourceTree = "<group>"; };
+		5ED0407D52D44D4B23E48353F1D378A7 /* EHItemViewCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EHItemViewCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DD1BB51DF20F463E65ED04E1BFF876 /* EHItemViewCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EHItemViewCommon.modulemap; sourceTree = "<group>"; };
+		6F36FC133EB1A12B24FF7106C4300C0D /* Pods_EHItemViewCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EHItemViewCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		870E0C2CB5C37796065CB9E7E001AFCF /* Pods-EHItemViewCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EHItemViewCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8FFE0DA73A928C4BB724CC1BA2D3CF1F /* EHItemViewCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EHItemViewCommon-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2990F06C607113D81C0B9F3ADF7410A /* EHItemViewCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EHItemViewCommon.xcconfig; sourceTree = "<group>"; };
+		BEC05C91461F6A59E59CFB839611703D /* Pods-EHItemViewCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EHItemViewCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0C03FD5A732F8177170AB41E3A6FDF4 /* Pods-EHItemViewCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHItemViewCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7A1451B5D255B511DDFE8F2C176332E /* Pods-EHItemViewCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EHItemViewCommon_Tests.modulemap"; sourceTree = "<group>"; };
+		D8E24912EE419189DB0EF3B09D40130D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB13C1C77B81114B03440DBD31EC1FE /* Pods-EHItemViewCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EHItemViewCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1736507E042A12E66838CD60BD9A740 /* Pods-EHItemViewCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EHItemViewCommon_Tests-dummy.m"; sourceTree = "<group>"; };
+		FA27F4DA5ECD8B6C9934921E788EF0E6 /* Pods-EHItemViewCommon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHItemViewCommon_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E4698E9CE7C41E28B675B5C5033848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC573672F84C274B839A182CAF8C1130 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD826A9DE6F65B5E4850F517012A196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC4F461B347658DBA17723DECA64A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E627B3D34114B9C12884DEED2FDA5F /* Pods-EHItemViewCommon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8E24912EE419189DB0EF3B09D40130D /* Info.plist */,
+				D7A1451B5D255B511DDFE8F2C176332E /* Pods-EHItemViewCommon_Tests.modulemap */,
+				DFB13C1C77B81114B03440DBD31EC1FE /* Pods-EHItemViewCommon_Tests-acknowledgements.markdown */,
+				BEC05C91461F6A59E59CFB839611703D /* Pods-EHItemViewCommon_Tests-acknowledgements.plist */,
+				F1736507E042A12E66838CD60BD9A740 /* Pods-EHItemViewCommon_Tests-dummy.m */,
+				112CDB4CDDC64E75A418BC2A93F47ED1 /* Pods-EHItemViewCommon_Tests-frameworks.sh */,
+				FA27F4DA5ECD8B6C9934921E788EF0E6 /* Pods-EHItemViewCommon_Tests-resources.sh */,
+				870E0C2CB5C37796065CB9E7E001AFCF /* Pods-EHItemViewCommon_Tests-umbrella.h */,
+				C0C03FD5A732F8177170AB41E3A6FDF4 /* Pods-EHItemViewCommon_Tests.debug.xcconfig */,
+				1DAD3CA9518EC6FFC3A912D9DD760032 /* Pods-EHItemViewCommon_Tests.release.xcconfig */,
+			);
+			name = "Pods-EHItemViewCommon_Tests";
+			path = "Target Support Files/Pods-EHItemViewCommon_Tests";
+			sourceTree = "<group>";
+		};
+		1DCB7E50A6C8E7A55D38CEAB039784E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63DD1BB51DF20F463E65ED04E1BFF876 /* EHItemViewCommon.modulemap */,
+				A2990F06C607113D81C0B9F3ADF7410A /* EHItemViewCommon.xcconfig */,
+				8FFE0DA73A928C4BB724CC1BA2D3CF1F /* EHItemViewCommon-dummy.m */,
+				2C24671404A673E661654B25591FE9D1 /* EHItemViewCommon-prefix.pch */,
+				26D6C97E09635EF8F47FD9F64F1F272B /* EHItemViewCommon-umbrella.h */,
+				0343FE5E641DC2130CBE520222DFC673 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EHItemViewCommon";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4008635087AA3E2AC4C6BFA41E7F1ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0407D52D44D4B23E48353F1D378A7 /* EHItemViewCommon.framework */,
+				6F36FC133EB1A12B24FF7106C4300C0D /* Pods_EHItemViewCommon_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2A656BE957C7FB281B0BAFC4F22DBF /* EHItemViewCommon */ = {
+			isa = PBXGroup;
+			children = (
+				6FABB32BE9454B1E18F9581E856E1808 /* EHItemViewCommon */,
+				1DCB7E50A6C8E7A55D38CEAB039784E6 /* Support Files */,
+			);
+			name = EHItemViewCommon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6FABB32BE9454B1E18F9581E856E1808 /* EHItemViewCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BDABCF947436FB6287C189F731A30104 /* Classes */,
+			);
+			path = EHItemViewCommon;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CFB8A3AED2F0B189B0F6C8A2680639CA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4008635087AA3E2AC4C6BFA41E7F1ED2 /* Products */,
+				7E534A2A47C8A86FB1DBA8A794AA0DD4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E534A2A47C8A86FB1DBA8A794AA0DD4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05E627B3D34114B9C12884DEED2FDA5F /* Pods-EHItemViewCommon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDABCF947436FB6287C189F731A30104 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				070CFE221E221D60002790E4 /* EHItemViewDelegate.h */,
+				070CFE231E221D60002790E4 /* EHItemViewSelectionDelegate.h */,
+				070CFE241E221D60002790E4 /* EHTypeDefs.h */,
+				070CFE251E221D60002790E4 /* UIView+EHItemViewDelegate.h */,
+				070CFE261E221D60002790E4 /* UIView+EHItemViewDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CFB8A3AED2F0B189B0F6C8A2680639CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2A656BE957C7FB281B0BAFC4F22DBF /* EHItemViewCommon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21F26EB146712A8AEB7E60AF3B86B516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070CFE271E221D60002790E4 /* EHItemViewDelegate.h in Headers */,
+				070CFE281E221D60002790E4 /* EHItemViewSelectionDelegate.h in Headers */,
+				805475207ABFFDAEFD72D7A76F4AFAA0 /* EHItemViewCommon-umbrella.h in Headers */,
+				070CFE2A1E221D60002790E4 /* UIView+EHItemViewDelegate.h in Headers */,
+				070CFE291E221D60002790E4 /* EHTypeDefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3BC7FC0D283BA6FBA2D388B923F9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE399D5DE738B28FE801B79F95247B80 /* Pods-EHItemViewCommon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F2559CC6E19BC2720E2F2EDADBFCC33 /* Pods-EHItemViewCommon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5EEA0771DE0B652347E6361083D2F7 /* Build configuration list for PBXNativeTarget "Pods-EHItemViewCommon_Tests" */;
+			buildPhases = (
+				1934E58D9E700806EAC0E0A4B3D43A44 /* Sources */,
+				D5E4698E9CE7C41E28B675B5C5033848 /* Frameworks */,
+				C2D3BC7FC0D283BA6FBA2D388B923F9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AA7C8366B1DC3B934C4FE2249D7203 /* PBXTargetDependency */,
+			);
+			name = "Pods-EHItemViewCommon_Tests";
+			productName = "Pods-EHItemViewCommon_Tests";
+			productReference = 6F36FC133EB1A12B24FF7106C4300C0D /* Pods_EHItemViewCommon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A8A77B2E4EAD24F1F768BC38FBD4674 /* EHItemViewCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E257BAAB45B19A20C6A703C4974EF3 /* Build configuration list for PBXNativeTarget "EHItemViewCommon" */;
+			buildPhases = (
+				97B018DC2A94CAEE25CF18D123BD6DF9 /* Sources */,
+				DCD826A9DE6F65B5E4850F517012A196 /* Frameworks */,
+				21F26EB146712A8AEB7E60AF3B86B516 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHItemViewCommon;
+			productName = EHItemViewCommon;
+			productReference = 5ED0407D52D44D4B23E48353F1D378A7 /* EHItemViewCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4008635087AA3E2AC4C6BFA41E7F1ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A8A77B2E4EAD24F1F768BC38FBD4674 /* EHItemViewCommon */,
+				2F2559CC6E19BC2720E2F2EDADBFCC33 /* Pods-EHItemViewCommon_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1934E58D9E700806EAC0E0A4B3D43A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDD9BB3E5593303AE9FE0D0A3710A3 /* Pods-EHItemViewCommon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B018DC2A94CAEE25CF18D123BD6DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070CFE2B1E221D60002790E4 /* UIView+EHItemViewDelegate.m in Sources */,
+				DBD7A1234AF298850896B4A5070D0EB4 /* EHItemViewCommon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AA7C8366B1DC3B934C4FE2249D7203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EHItemViewCommon;
+			target = 8A8A77B2E4EAD24F1F768BC38FBD4674 /* EHItemViewCommon */;
+			targetProxy = CDAB54E7B4D394FEF900347DD77E8355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A09366F600A56476997AE59EAAB2531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAD3CA9518EC6FFC3A912D9DD760032 /* Pods-EHItemViewCommon_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EHItemViewCommon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EHItemViewCommon_Tests/Pods-EHItemViewCommon_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EHItemViewCommon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC5558CA4ACB97ABC87833F137FD2AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2990F06C607113D81C0B9F3ADF7410A /* EHItemViewCommon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EHItemViewCommon/EHItemViewCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EHItemViewCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EHItemViewCommon/EHItemViewCommon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EHItemViewCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DAE6FB3E5CB42D51F4E5ED8A827DE9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2990F06C607113D81C0B9F3ADF7410A /* EHItemViewCommon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EHItemViewCommon/EHItemViewCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EHItemViewCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EHItemViewCommon/EHItemViewCommon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EHItemViewCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E874FC13779CDBC1B060C4C120E83569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C03FD5A732F8177170AB41E3A6FDF4 /* Pods-EHItemViewCommon_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EHItemViewCommon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EHItemViewCommon_Tests/Pods-EHItemViewCommon_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EHItemViewCommon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E257BAAB45B19A20C6A703C4974EF3 /* Build configuration list for PBXNativeTarget "EHItemViewCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE6FB3E5CB42D51F4E5ED8A827DE9FC /* Debug */,
+				BC5558CA4ACB97ABC87833F137FD2AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5EEA0771DE0B652347E6361083D2F7 /* Build configuration list for PBXNativeTarget "Pods-EHItemViewCommon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E874FC13779CDBC1B060C4C120E83569 /* Debug */,
+				3A09366F600A56476997AE59EAAB2531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
