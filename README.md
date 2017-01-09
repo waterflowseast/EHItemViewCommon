@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/EHItemViewCommon.svg?style=flat)](http://cocoapods.org/pods/EHItemViewCommon)
 [![Platform](https://img.shields.io/cocoapods/p/EHItemViewCommon.svg?style=flat)](http://cocoapods.org/pods/EHItemViewCommon)
 
-## Example
+## Summary
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Common Headers for EHItemsView, EHPageItemsView, EHFlexibleItemsView, EHHorizontalFixedWidthItemsView, EHHorizontalFlexibleWidthItemsView.
 
 ## Requirements
+
+iOS 7.0+
 
 ## Installation
 
