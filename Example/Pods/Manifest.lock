@@ -1,5 +1,5 @@
 PODS:
-  - EHItemViewCommon (1.0.0)
+  - EHItemViewCommon (1.0.1)
 
 DEPENDENCIES:
   - EHItemViewCommon (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EHItemViewCommon: 75b801f64e4f5ac7bbd9972911501a4e3993b27d
+  EHItemViewCommon: 42fabf0466bc6f53355af931076ba2cda3e7cc5f
 
 PODFILE CHECKSUM: b299756d35cc26181998d27de2bd7f136147c6ae
 
